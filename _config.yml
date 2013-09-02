@@ -1,10 +1,13 @@
 menu:
-  Home: /
-  Archives: /archives
+  首页: /
+  随感: /categories/essay/
+  技术: /categories/tech/
+  理财: /categories/investment/
+  生活: /categories/life/
+  归档: /archives
 
 widgets: 
 - search
-- category
 - tag
 
 excerpt_link: Read More
