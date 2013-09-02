@@ -1,21 +1,21 @@
-# Light
+# Future
 
-Default theme for [Hexo].
+Future theme for [Hexo] based on light theme.
 
 ## Install
 
-Execute the following command and modify `theme` in `_config.yml` to `light`.
+Execute the following command and modify `theme` in `_config.yml` to `future`.
 
 ```
-git clone git://github.com/tommy351/hexo-theme-light.git themes/light
+git clone git@github.com:hustcer/future.git themes/future
 ```
 
 ## Update
 
-Execute the following command to update Light.
+Execute the following command to update future.
 
 ```
-cd themes/light
+cd themes/future
 git pull
 ```
 
@@ -75,39 +75,6 @@ rss:
 
 ## Features
 
-### Gallery Post
-
-![](http://i.minus.com/ibp6Hbytwgof9y.jpg)
-
-```
----
-layout: photo
-title: Gallery Post
-photos:
-- http://i.minus.com/ibobbTlfxZgITW.jpg
-- http://i.minus.com/iedpg90Y0exFS.jpg
----
-```
-
-### Link Post
-
-![](http://i.minus.com/i7hBbGqh14EWo.png)
-
-```
----
-layout: link
-title: Link Post
-link: http://www.google.com/
----
-```
-
-### Tweet Widget
-
-![](http://i.minus.com/iMC8EyF9y0Y3y.PNG)
-
-### Fancybox
-
-![](http://i.minus.com/iHv7h7rZNqHvo.PNG)
 
 [Hexo]: http://zespia.tw/hexo/
 [AddThis]: https://www.addthis.com
