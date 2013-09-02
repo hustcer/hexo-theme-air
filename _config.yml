@@ -24,5 +24,6 @@ addthis:
 
 fancybox: true
 
-google_analytics:
+google_analytics: UA-31166339-5
+analytics_site_name: topdna.org
 rss:
