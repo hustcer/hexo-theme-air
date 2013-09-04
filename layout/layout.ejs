@@ -7,7 +7,11 @@
     <aside id="sidebar" class="alignright"><%- partial('_partial/sidebar') %></aside>
     <div class="clearfix"></div>
   </div>
+  <div id="go-pg-top"><i class="icon-arrow-up"></i></div>
   <footer id="footer" class="inner"><%- partial('_partial/footer') %></footer>
   <%- partial('_partial/after_footer') %>
 </body>
+<% if (config.disqus_shortname){ %>
+<div id="fb-root"></div>
+<% } %>
 </html>

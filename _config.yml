@@ -20,10 +20,11 @@ twitter:
 addthis:
   enable: true
   pubid:
+  weibo: true
+  qzone: true
+  google: true
   facebook: true
   twitter: true
-  google: true
-  pinterest: true
 
 fancybox: true
 
