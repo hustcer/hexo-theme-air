@@ -34,7 +34,7 @@
             color color-link
 
 figure.highlight
-  background #eee
+  background #FFF
   border 1px solid color-border
   margin-top 15px
   padding 7px 15px
@@ -72,73 +72,100 @@ figure.highlight
     border-left 1px solid #fff
     color #666
 
+// More theme here: http://softwaremaniacs.org/media/soft/highlight/test.html
+/*
+ * Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
+ */
 pre
-  // Theme: Solarized - Light
-  // More theme here: http://softwaremaniacs.org/media/soft/highlight/test.html
-  .comment
-  .template_comment
-  .diff .header
-  .doctype
-  .pi
-  .lisp .string
-  .javadoc
-    color #93a1a1
-    font-style italic
+  code
+    display block
+    padding 0.5em
 
-  .keyword
-  .winutils
-  .method
-  .addition
-  .css .tag
-  .request
-  .status
-  .nginx .title
-    color #859900
+pre
+  .comment,
+  .annotation,
+  .template_comment,
+  .diff .header,
+  .chunk,
+  .apache .cbracket
+    color rgb(0, 128, 0)
 
-  .number
-  .command
-  .string
-  .tag .value
-  .phpdoc
-  .tex .formula
-  .regexp
-  .hexcolor
-    color #2aa198
+pre
+  .keyword,
+  .id,
+  .built_in,
+  .smalltalk .class,
+  .winutils,
+  .bash .variable,
+  .tex .command,
+  .request,
+  .status,
+  .nginx .title,
+  .xml .tag,
+  .xml .tag .value
+    color rgb(0, 0, 255)
 
-  .title
-  .localvars
-  .chunk
-  .decorator
-  .built_in
-  .identifier
-  .vhdl
-  .literal
-  .id
-    color #268bd2
+pre
+  .string,
+  .title,
+  .parent,
+  .tag .value,
+  .rules .value,
+  .rules .value .number,
+  .ruby .symbol,
+  .ruby .symbol .string,
+  .aggregate,
+  .template_tag,
+  .django .variable,
+  .addition,
+  .flow,
+  .stream,
+  .apache .tag,
+  .date,
+  .tex .formula,
+  .coffeescript .attribute
+    color rgb(163, 21, 21)
 
-  .attribute
-  .variable
-  .lisp .body
-  .smalltalk .number
-  .constant
-  .class .title
-  .parent
-  .haskell .type
-    color #b58900
+pre
+  .ruby .string,
+  .decorator,
+  .filter .argument,
+  .localvars,
+  .array,
+  .attr_selector,
+  .pseudo,
+  .pi,
+  .doctype,
+  .deletion,
+  .envvar,
+  .shebang,
+  .preprocessor,
+  .userType,
+  .apache .sqbracket,
+  .nginx .built_in,
+  .tex .special,
+  .prompt
+    color rgb(43, 145, 175)
 
-  .preprocessor
-  .preprocessor .keyword
-  .shebang
-  .symbol
-  .symbol .string
-  .diff .change
-  .special
-  .attr_selector
-  .important
-  .subst
-  .cdata
-  .clojure .title
-    color #cb4b16
+pre
+  .phpdoc,
+  .javadoc,
+  .xmlDocTag
+    color rgb(128, 128, 128)
 
-  .deletion
-    color #dc322f
+pre
+  .vhdl .typename
+    font-weight bold
+pre
+  .vhdl .string
+    color #666666
+pre
+  .vhdl .literal
+    color rgb(163, 21, 21)
+pre
+  .vhdl .attribute
+    color #00B0E8
+
+pre
+  .xml .attribute
+    color rgb(255, 0, 0)
