@@ -30,6 +30,21 @@
         </div>
         <% } %>
       <% } else { %>
+        <% if (theme.copyright){ %>
+          <div class="copyright">
+            <% if (theme.copyright.claim){ %>
+              <span class="claim"><%= theme.copyright.claim %></span>
+            <% } %>
+            <% if (theme.copyright.show_link){ %>
+              <span class="from-link">
+                <em>本文链接地址:</em> 
+                <a href="<%- config.root %><%- item.path %>">
+                  <%- page.permalink %>
+                </a>
+              </span>
+            <% } %>
+          </div>
+        <% } %>
         <%- partial('post/category') %>
         <%- partial('post/tag') %>
         <%- partial('post/share') %>

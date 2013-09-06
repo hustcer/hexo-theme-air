@@ -26,6 +26,11 @@ addthis:
   facebook: true
   twitter: true
 
+copyright:
+  enable: true
+  claim: 版权声明：自由转载-非商用-无演绎-保持署名 @ Creative Commons BY-NC-ND 3.0
+  show_link: true
+
 fancybox: true
 
 google_analytics: UA-31166339-5
