@@ -1,3 +1,8 @@
+<ul class="page-direction" id="page-direction">
+    <li><a class="page-prev icon-chevron-sign-left" href="javascript:;" title="<%= __('prev') %>"></a></li>
+    <li><a class="page-next icon-chevron-sign-right" href="javascript:;" title="<%= __('next') %>"></a></li>
+</ul>
+<nav id="page-list" class="page-list"><%- paginator() %></nav>
 <nav id="pagination">
   <% if (page.prev){ %>
     <a href="<%- config.root %><%- page.prev_link %>" class="alignleft prev"><%= __('prev') %></a>

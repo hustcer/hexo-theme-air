@@ -37,19 +37,33 @@
 
   .search
     margin-bottom 30px
+    position relative
     input
       background #fff
       font-family font-title
-      font-style italic
-      font-size 1em
-      padding 10px 15px
+      font-style normal
+      font-size 15px
+      padding 5px 27px 5px 12px
       border 1px solid color-border
       width 100%
       outline none
       box-sizing border-box
       color color-meta
+      line-height 22px
       &:focus
         color color-font
+        border 1px solid #77B9FF
+
+  .icon-search
+    position absolute
+    right 7px
+    top 6px
+    font-size 22px
+    color #D6D6D6
+    cursor pointer
+
+  .search-hover
+    color #C40000
 
   .tag
     small
