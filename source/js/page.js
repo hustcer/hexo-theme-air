@@ -6,6 +6,10 @@
       initScrollHandler();
       initSearchBox();
       initPaginationCtrl();
+      // $('div.post-content header h1').on('click', function(){
+      //   console.log('youclickme');
+      //   toggleFull();
+      // });
     }
 
     var initScrollHandler = function(){
@@ -30,7 +34,7 @@
       });
       // Scroll to top
       goTop();
-    }
+    };
 
     var initSearchBox = function(){
       $('#sidebar i.icon-search').on({
@@ -44,7 +48,7 @@
             $(this).removeClass('search-hover');
         }
       });
-    }  
+    };
 
     var initPaginationCtrl = function(){
       var $prev = $('#pagination .prev'),
@@ -82,7 +86,46 @@
             $(this).removeClass('page-next-hover');
         }
       });
-    }
+    };
+
+    var cancelFullScreen = function(el){
+        var requestMethod = el.cancelFullScreen||el.webkitCancelFullScreen||el.mozCancelFullScreen||el.exitFullscreen;
+        if (requestMethod) { // cancel full screen.
+            requestMethod.call(el);
+        } else if (typeof window.ActiveXObject !== "undefined") { // Older IE.
+            var wscript = new ActiveXObject("WScript.Shell");
+            if (wscript !== null) {
+                wscript.SendKeys("{F11}");
+            }
+        }
+    };
+
+    var requestFullScreen = function(el){
+        // Supports most browsers and their versions.
+        var requestMethod = el.requestFullScreen || el.webkitRequestFullScreen || el.mozRequestFullScreen || el.msRequestFullScreen;
+
+        if (requestMethod) { // Native full screen.
+            requestMethod.call(el);
+        } else if (typeof window.ActiveXObject !== "undefined") { // Older IE.
+            var wscript = new ActiveXObject("WScript.Shell");
+            if (wscript !== null) {
+                wscript.SendKeys("{F11}");
+            }
+        }
+        return false
+    };
+
+    var toggleFull = function(){
+        var elem = $('#content article.post')[0]; // Make the body go full screen.
+        var isInFullScreen = (document.fullScreenElement && document.fullScreenElement !== null) ||  (document.mozFullScreen || document.webkitIsFullScreen);
+
+        if (isInFullScreen) {
+            cancelFullScreen(document);
+        } else {
+            requestFullScreen(elem);
+        }
+        return false;
+    };
 
     init();
 

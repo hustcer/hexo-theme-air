@@ -6,7 +6,7 @@ menu:
   生活: /categories/life/
   归档: /archives
 
-widgets: 
+widgets:
 - search
 - tag
 - recent_posts
@@ -34,6 +34,6 @@ copyright:
 
 fancybox: true
 
-google_analytics: UA-31166339-5
+google_analytics: UA-45019001-1
 analytics_site_name: topdna.org
 rss:
