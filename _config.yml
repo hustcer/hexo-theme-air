@@ -1,5 +1,6 @@
 menu:
   首页: /
+  TraceInvest: http://traceinvest.com
   随感: /categories/essay/
   技术: /categories/tech/
   理财: /categories/investment/
@@ -10,6 +11,7 @@ widgets:
 - search
 - tag
 - recent_posts
+- traceInvest
 
 excerpt_link: Read More
 
