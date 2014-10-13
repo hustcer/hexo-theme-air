@@ -21,7 +21,6 @@ if (page.archive){
       <article class="<%= item.layout %>">
         <div class="post-content">
           <header>
-            <div class="icon"></div>
             <time datetime="<%= item.date.toDate().toISOString() %>"><a href="<%- config.root %><%- item.path %>"><%= item.date.format(config.date_format) %></a></time>
             <% if (item.link){ %>
               <% if (item.title){ %>

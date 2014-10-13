@@ -5,7 +5,6 @@
   <div class="post-content">
     <header>
       <% if (item.layout != 'page'){ %>
-        <div class="icon"></div>
         <time datetime="<%= item.date.toDate().toISOString() %>"><a href="<%- config.root %><%- item.path %>"><%= item.date.format(config.date_format) %></a></time>
       <% } %>
       <%- partial('post/title') %>
@@ -50,7 +49,7 @@
             <% } %>
             <% if (theme.copyright.show_link){ %>
               <span class="from-link">
-                <em>本文链接地址:</em> 
+                <em>本文链接地址:</em>
                 <a href="<%- config.root %><%- item.path %>">
                   <%- page.permalink %>
                 </a>
