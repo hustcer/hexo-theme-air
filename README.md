@@ -76,6 +76,6 @@ rss:
 ## Features
 
 
-[Hexo]: http://zespia.tw/hexo/
+[Hexo]: http://hexo.io/
 [AddThis]: https://www.addthis.com
 [Fancybox]: http://fancyapps.com/fancybox/
