@@ -1,21 +1,21 @@
-# Future
+# Air
 
-Future theme for [Hexo] based on light theme.
+Air theme for [Hexo] based on light theme.
 
 ## Install
 
-Execute the following command and modify `theme` in `_config.yml` to `future`.
+Execute the following command and modify `theme` in `_config.yml` to `air`.
 
 ```
-git clone git@github.com:hustcer/future.git themes/future
+git clone git@github.com:hustcer/hexo-theme-air.git themes/air
 ```
 
 ## Update
 
-Execute the following command to update future.
+Execute the following command to update air.
 
 ```
-cd themes/future
+cd themes/air
 git pull
 ```
 
