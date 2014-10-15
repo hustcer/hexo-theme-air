@@ -1,6 +1,6 @@
 # Air
 
-Air theme for [Hexo] based on light theme.
+Air theme for [Hexo] based on [light] theme.
 
 ## Install
 
@@ -75,7 +75,7 @@ rss:
 
 ## Features
 
-
 [Hexo]: http://hexo.io/
+[light]: https://github.com/hexojs/hexo-theme-light
 [AddThis]: https://www.addthis.com
 [Fancybox]: http://fancyapps.com/fancybox/
