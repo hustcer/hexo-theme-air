@@ -24,8 +24,8 @@ addthis:
   enable: true
   pubid:
   weibo: true
-  qzone: true
-  google: true
+  linkedin: true
+  google: false
   facebook: true
   twitter: true
 

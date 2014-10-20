@@ -1,3 +1,7 @@
+
+### [Gratipay <img height="20px" src="https://raw.githubusercontent.com/gratipay/gratipay.com/master/www/assets/%25version/gratipay.opengraph.png" style="max-width:100%;">](https://gratipay.com/hustcer/)
+
+
 # Air
 
 Air theme for [Hexo] based on [light] theme.
@@ -50,6 +54,8 @@ addthis:
   pubid:
   facebook: true
   twitter: true
+  weibo: true
+  linkedin: true
   google: true
   pinterest: true
 
@@ -71,6 +77,8 @@ rss:
   - **pubid** - Profile ID of [AddThis]
   - **facebook** - Enable Facebook button
   - **twitter** - Enable Twitter button
+  - **weibo** - Enable Sina Weibo button
+  - **linkedin** - Enable Linkedin share button
   - **google** - Enable Google+ button
   - **pinterest** - Enable Pinterest button
 - **fancybox** - Enable [Fancybox]
