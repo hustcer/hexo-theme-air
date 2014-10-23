@@ -1,10 +1,19 @@
 
-### [Gratipay <img height="20px" src="https://raw.githubusercontent.com/gratipay/gratipay.com/master/www/assets/%25version/gratipay.opengraph.png" style="max-width:100%;">](https://gratipay.com/hustcer/)
-
 
 # Air
 
 Air theme for [Hexo] based on [light] theme.
+
+
+## Donating
+
+Support this project and [others by hustcer][gratipay] via [gratipay][].
+
+[![Support via Gratipay][gratipay-badge]][gratipay]
+
+[gratipay-badge]: https://raw.githubusercontent.com/hustcer/htmldemo/master/gittip.png
+[gratipay]: https://gratipay.com/hustcer/
+
 
 ## Demo
 
