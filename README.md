@@ -93,44 +93,8 @@ rss:
 - **google_analytics** - Google Analytics ID
 - **rss** - RSS subscription link (change if using Feedburner)
 
-## Features
 
-
-### Gallery Post
-
-![](http://i.minus.com/ibp6Hbytwgof9y.jpg)
-
-```
----
-layout: photo
-title: Gallery Post
-photos:
-- http://i.minus.com/ibobbTlfxZgITW.jpg
-- http://i.minus.com/iedpg90Y0exFS.jpg
----
-```
-
-### Link Post
-
-![](http://i.minus.com/i7hBbGqh14EWo.png)
-
-```
----
-layout: link
-title: Link Post
-link: http://www.google.com/
----
-```
-
-### Tweet Widget
-
-![](http://i.minus.com/iMC8EyF9y0Y3y.PNG)
-
-### Fancybox
-
-![](http://i.minus.com/iHv7h7rZNqHvo.PNG)
-
-[Hexo]: http://zespia.tw/hexo/
+[Hexo]: https://hexo.io/
 [light]: https://github.com/hexojs/hexo-theme-light
 [AddThis]: https://www.addthis.com
 [Fancybox]: http://fancyapps.com/fancybox/
