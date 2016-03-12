@@ -9,6 +9,7 @@ menu:
 
 widgets:
 - search
+- category
 - tag
 - traceInvest
 - recent_posts
@@ -28,6 +29,7 @@ addthis:
   google: false
   facebook: true
   twitter: true
+  pinterest: true
 
 copyright:
   enable: true
@@ -39,3 +41,11 @@ fancybox: true
 google_analytics: UA-45019001-1
 analytics_site_name: topdna.org
 rss:
+
+comment_provider: facebook
+# Facebook comment
+facebook:
+  appid: 123456789012345
+  comment_count: 5
+  comment_width: 840
+  comment_colorscheme: light
