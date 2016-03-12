@@ -17,11 +17,11 @@
           $(window).scroll(function(e) {
               // If the distance between scrollbar and top border is more than 100 pix
               if($(window).scrollTop() > 100)
-                  $("#go-pg-top").fadeIn().css({ opacity: 0.6 });
+                  $("#go-pg-top").fadeIn().css({ opacity: 0.5 });
               else
                   $("#go-pg-top").fadeOut();
           });
-      };  
+      };
 
       $("#go-pg-top").click(function(e) {
           $('body,html').animate({scrollTop:0}, 200);
@@ -30,7 +30,7 @@
           $(this).css({ opacity: 1 });
       });
       $("#go-pg-top").mouseout(function(e) {
-          $(this).css({ opacity: 0.6 });
+          $(this).css({ opacity: 0.5 });
       });
       // Scroll to top
       goTop();
@@ -76,7 +76,7 @@
         'mouseout': function(){
             $(this).removeClass('page-prev-hover');
         }
-      });  
+      });
 
       $pgNext.on({
         'mouseover': function(){
