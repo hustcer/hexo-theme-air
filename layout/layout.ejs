@@ -5,7 +5,7 @@
   <header id="header" class="inner"><%- partial('_partial/header') %></header>
   <div id="content" class="inner">
     <div id="main-col" class="alignleft"><div id="wrapper"><%- body %></div></div>
-    <aside id="sidebar" class="alignright"><%- partial('_partial/sidebar') %></aside>
+    <aside id="sidebar" class="alignright"><%- partial('_partial/sidebar', {}, {cache: true}) %></aside>
     <div class="clearfix"></div>
   </div>
   <div id="go-pg-top"><i class="icon-arrow-up"></i></div>
