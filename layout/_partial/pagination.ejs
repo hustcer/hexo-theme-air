@@ -1,6 +1,6 @@
 <ul class="page-direction" id="page-direction">
-    <li><a class="page-prev icon-chevron-sign-left" href="javascript:;" title="<%= __('prev') %>"></a></li>
-    <li><a class="page-next icon-chevron-sign-right" href="javascript:;" title="<%= __('next') %>"></a></li>
+    <li><a class="page-prev" href="javascript:;" title="<%= __('prev') %>"><i class="icon-angle-left"></i></a></li>
+    <li><a class="page-next" href="javascript:;" title="<%= __('next') %>"><i class="icon-angle-right"></i></a></li>
 </ul>
 <% if (page.prev||page.next){ %>
     <nav id="page-list" class="page-list"><%- paginator() %></nav>
