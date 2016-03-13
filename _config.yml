@@ -26,9 +26,9 @@ addthis:
   weibo: true
   linkedin: true
   google: false
-  facebook: true
-  twitter: true
-  pinterest: true
+  facebook: false
+  twitter: false
+  pinterest: false
 
 copyright:
   enable: true

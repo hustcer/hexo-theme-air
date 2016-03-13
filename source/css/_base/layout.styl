@@ -13,6 +13,16 @@ body
   @media screen and (max-width: 600px)
     font-size 13px
 
+body::-webkit-scrollbar
+    width 0.5em
+
+body::-webkit-scrollbar-track
+    -webkit-box-shadow inset 0 0 6px rgba(0,0,0,0.3)
+
+body::-webkit-scrollbar-thumb
+  background-color #999
+  outline 1px solid #999
+
 h1, h2, h3, h4, h5, h6
   font-family font-title
 
